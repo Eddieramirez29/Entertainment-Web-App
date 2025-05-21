@@ -1,6 +1,11 @@
-i
+#search-button > i
 {
   color: white;
+}
+
+.side-bar > .fa-clapperboard
+{
+    color: rgb(237, 30, 30);
 }
 
 #search-bar
@@ -55,3 +60,17 @@ body
 {
     background-color: #171d30;
 }
+
+.side-bar
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2a3558;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 30px;
+    height: 500px;
+}
+
+
